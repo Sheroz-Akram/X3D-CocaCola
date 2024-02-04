@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Nice Font';
+    src: url('CocaCola.TTF');
+}
+
+@font-face {
+    font-family: 'Sprite';
+    src: url('Sprite.ttf');
+}
+
+@font-face {
+    font-family: 'DrPepper';
+    src: url('DrPepper.ttf');
+}
+
+.btn{
+    margin-top: 5px;
+    color: white;
+}
+
+.btn:hover {
+    color: teal;
+    background-color: #fff;
+    border-color: teal;
+}
+
+.blackDisplay {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.col-sm {
+    margin: 10px;
+}
+
+.itemDisplayRow {
+    margin: 50px;
+}
+
+.footerIcon {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.btn-group {
+    margin-bottom: 10px;
+}
+
+.modelViewOperationMessage {
+    margin-top: 10px;
+    padding: 0px;
+    color: white;
+}
+
+.modelHeading {
+    color: #CF0919;
+    font-family: Nice Font;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.operations .btn{
+    background-color: #CF0919;
+}
+
+.operations .btn:hover{
+    background-color: #FF0009;
+}
+
+
+
+
+@media only screen and (max-width: 433) {
+    .selectionBtn {
+        width: 10px !important;
+    }
+}
